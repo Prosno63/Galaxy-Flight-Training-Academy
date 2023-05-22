@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ReportController">
+   <children>
+      <Label layoutX="71.0" layoutY="76.0" text="Report problems">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="131.0" text="Aircraft Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="aircraftName" layoutX="188.0" layoutY="129.0" prefWidth="150.0" />
+      <Label layoutX="90.0" layoutY="166.0" text="Type:" />
+      <ComboBox fx:id="type" layoutX="188.0" layoutY="162.0" prefWidth="150.0" />
+      <Label layoutX="84.0" layoutY="211.0" text="Wheel base:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="246.0" text=" " />
+      <Label layoutX="81.0" layoutY="253.0" text="RunwayLength:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="RunwayLength" layoutX="188.0" layoutY="251.0" prefWidth="150.0" />
+      <ComboBox fx:id="wheelBase" layoutX="188.0" layoutY="208.0" prefWidth="150.0" />
+      <Label layoutX="27.0" layoutY="293.0" text="MaintenanceEnginner ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="id" layoutX="188.0" layoutY="291.0" prefWidth="150.0" />
+      <TextArea fx:id="textArea" layoutX="369.0" layoutY="137.0" prefHeight="166.0" prefWidth="200.0" />
+      <Label layoutX="372.0" layoutY="105.0" text="Comment about problem:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="55.0" text="Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="453.0" layoutY="55.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="389.0" layoutY="79.0" text="ID:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="userid" layoutX="455.0" layoutY="81.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="191.0" layoutY="340.0" mnemonicParsing="false" onAction="#addToArrayListButtonOnClick" prefHeight="25.0" prefWidth="188.0" text="ADD INFORMATION IN LIST" />
+      <Button layoutX="407.0" layoutY="340.0" mnemonicParsing="false" onAction="#sentReportButtonOnClick" prefHeight="25.0" prefWidth="173.0" text="SENT REPORT" />
+   </children>
+</AnchorPane>
