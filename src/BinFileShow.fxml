@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BinFileShowController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="47.0" layoutY="43.0" prefHeight="273.0" prefWidth="718.0" />
+      <Button layoutX="89.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#btnOnClick" text="read" />
+      <Button layoutX="187.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#BackbtnOnClick" text="back" />
+   </children>
+</AnchorPane>

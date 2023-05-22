@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdmissionOfficerSceneController">
+   <children>
+      <Label layoutX="36.0" layoutY="36.0" text="Admission Officer">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="117.0" prefHeight="20.0" prefWidth="203.0" text="Notifications:">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="36.0" layoutY="151.0" prefHeight="200.0" prefWidth="738.0" />
+      <Button layoutX="558.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#postAdmissionNoticeButton" prefHeight="35.0" prefWidth="231.0" text="Post Admission Notice">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="558.0" layoutY="425.0" mnemonicParsing="false" onMouseClicked="#viewApplicantList" prefHeight="35.0" prefWidth="231.0" text="View Applicant list">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="425.0" mnemonicParsing="false" onMouseClicked="#vivaExamButton" prefHeight="35.0" prefWidth="354.0" text="Candidate selection for viva exam">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="558.0" layoutY="529.0" mnemonicParsing="false" onMouseClicked="#leaveApplicationButton" prefHeight="42.0" prefWidth="231.0" text="Leave Application">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="558.0" layoutY="477.0" mnemonicParsing="false" onMouseClicked="#editCandidateInformationButton" prefHeight="35.0" prefWidth="231.0" text="​​Edit candidate info">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="477.0" mnemonicParsing="false" onMouseClicked="#medicalTestButton" prefHeight="35.0" prefWidth="354.0" text="Candidate selection for medical test">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="415.0" layoutY="442.0" mnemonicParsing="false" onMouseClicked="#logoutButton" prefHeight="0.0" prefWidth="108.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#writtenExamButton" prefHeight="35.0" prefWidth="354.0" text="Candidate selection for written exam">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="533.0" mnemonicParsing="false" onMouseClicked="#finalCandidateButton" prefHeight="35.0" prefWidth="354.0" text="Final selected candidate">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
